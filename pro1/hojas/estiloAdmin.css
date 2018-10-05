@@ -1,0 +1,312 @@
+body
+{
+	
+	background: rgb(212,228,239); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(212,228,239,1)), color-stop(100%,rgba(134,174,204,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(212,228,239,1) 0%,rgba(134,174,204,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(212,228,239,1) 0%,rgba(134,174,204,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(212,228,239,1) 0%,rgba(134,174,204,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(212,228,239,1) 0%,rgba(134,174,204,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc',GradientType=0 ); /* IE6-9 */
+background-image:url(../img/mj.png);
+}
+
+h1
+{
+/*Apply this class to some text to unlock the secrets of the third dimension!*/
+margin:0 auto;
+margin-top:20px;
+margin-bottom:15px;
+font-family: Georgia, serif;
+line-height: 1em;
+color: #24c4e0;
+font-weight:bold;
+font-style:italic;
+font-size: 24px;
+text-shadow:0px 0px 0 rgb(11,171,199),0px -1px 0 rgb(-14,146,174),0px -2px 0 rgb(-39,121,149),0px -3px 0 rgb(-64,96,124), 0px -4px 0 rgb(-89,71,99),0px -5px 4px rgba(0,0,0,1),0px -5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+}
+
+.resultados, .resultadosUsu, .resultadosAct, #conProPer, #resultadosProyectos ,#resultadosActUsuario, #resultadosActError
+{
+
+color:#F00;
+
+	}
+.caja3{width:145px;
+/*/////////////////////*/
+/*-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+border:solid 1px #0099CC;
+*/
+
+/*/////////////////////////////*/
+background-color: #f6fff0;
+border: 2px solid #0d84ff;
+-moz-border-radius: 10px 0px;
+-webkit-border-radius: 10px 0px 10px 0px;/*This is the correct shorthand for webkit*/
+border-radius: 10px 0px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+-moz-box-shadow: 1px 5px 20px #0d84ff;
+-webkit-box-shadow: 1px 5px 20px #0d84ff;
+box-shadow: 1px 5px 20px #0d84ff;
+filter: progid:DXImageTransform.Microsoft.Shadow(strength = 5, direction = 144, color = '#0d84ff');
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 5, Direction = 144, Color = '#0d84ff')";
+/*Shadows look very different in IE (Only cardinal directions supported)*/
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element should have a background-color*/
+/*All filters must be placed together*/
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+
+
+
+/*///////////////////////////////////////////*/
+
+}
+
+/**EFECTO DEL BOTON*/
+
+
+	
+	
+.botones {
+   border-top: 1px solid #007bd9;
+   background: #e9eef2;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0d86ff), to(#e9eef2));
+   background: -webkit-linear-gradient(top, #0d86ff, #e9eef2);
+   background: -moz-linear-gradient(top, #0d86ff, #e9eef2);
+   background: -ms-linear-gradient(top, #0d86ff, #e9eef2);
+   background: -o-linear-gradient(top, #0d86ff, #e9eef2);
+   padding: 5.5px 11px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #1f091f;
+   font-size: 16px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.botones:hover {
+   border-top-color: #48a8d4;
+   background: #48a8d4;
+   color: #ffffff;
+   }
+.botones:active {
+   border-top-color: #0d86ff;
+   background: #0d86ff;
+   }
+
+   
+
+	
+/** FIN EFECTO DEL BOTON*/
+label
+{
+	color:#09F;
+}
+/*EVEMTO HOVER*/
+#tituloProyectos
+{
+
+	}
+.cont #proyectos:hover
+{
+/*	background-image:url(../img/mj.png);
+	opacity:0.9;	
+	background-color:#24c4e0;
+	-webkit-transition: background-color 2s ;
+	-moz-transition: background-color 1s ;
+	-ms-transition: background-color 1s ;
+	-o-transition: background-color 1s ;
+	transition: background-color 2s ;*/
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;
+
+}
+.cont #programadores:hover
+{
+/*	background-color:#24c4e0;
+	
+	-webkit-transition: background-color 2s ;
+	-moz-transition: background-color 1s ;
+	-ms-transition: background-color 1s ;
+	-o-transition: background-color 1s ;
+	transition: background-color 2s ;*/
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;
+}
+.cont #clientes:hover
+{
+/*	background-color:#24c4e0;
+	
+	-webkit-transition: background-color 2s ;
+	-moz-transition: background-color 1s ;
+	-ms-transition: background-color 1s ;
+	-o-transition: background-color 1s ;
+	transition: background-color 2s ;*/
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;
+}
+.cont #actividades:hover
+{
+/*	background-color:#CEFFFF;
+	-webkit-transition: background-color 2s ;
+	-moz-transition: background-color 1s ;
+	-ms-transition: background-color 1s ;
+	-o-transition: background-color 1s ;
+	transition: background-color 2s ;
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;*/
+}	
+
+.cont #reportes:hover
+{
+/*	background-color:#CEFFFF;
+	-webkit-transition: background-color 2s ;
+	-moz-transition: background-color 1s ;
+	-ms-transition: background-color 1s ;
+	-o-transition: background-color 1s ;
+	transition: background-color 2s ;
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;*/
+
+}
+#kk:hover{
+/*	margin:0 auto;
+	margin-left:50%;
+	background-image:url(../img/mouse2.gif);
+	background-repeat:no-repeat;
+*/
+ }
+#cont
+{
+margin:0 auto;
+width:900px;
+min-height:200px;
+
+background-image:url(../img/MJSOFT2.png);
+background-repeat:repeat-y;
+/*margin-left:10%;*/
+-moz-border-radius: 19px;
+-webkit-border-radius: 19px;
+border-radius: 19px;
+
+
+}
+
+#proyectos
+{
+	cursor:pointer;
+	/*background-color:#00BFFF;*/
+	text-align:center;
+	-moz-border-radius: 19px 19px 0px 0px;
+	-webkit-border-radius: 19px 19px 0px 0px;
+	border-radius: 19px 19px 0px 0px;	
+}
+#programadores
+{
+	/*width:900px;
+	height:200px;*/
+	cursor:pointer;
+/*	background-color:#00FF55;*/
+	text-align:center;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
+	
+}
+
+#clientes
+{
+/*	width:900px;
+	height:200px;*/
+	cursor:pointer;
+/*	background-color:#AAFFFF;*/
+	text-align:center;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
+	
+}
+#actividades
+{
+	/*width:900px;
+	height:200px;*/
+	cursor:pointer;
+	/*background-color:#2A9FAA;*/
+	text-align:center;
+	-moz-border-radius: 0px 0px 19px 19px;
+	-webkit-border-radius: 0px 0px 19px 19px;
+	border-radius: 0px 0px 19px 19px;
+	
+	}
+#pro,#cli,#act
+{
+	margin-top:15px;
+	overflow:auto;	
+	background:#FFFBF0;
+	display:none;
+	width:450;
+	height:200px;
+	 margin:0 auto;
+	 -moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+}
+#conPro,#conPro2,#conPro3,#conPro4,#menIngProy,#menIngProy2,#menIngProy3,#menIngProy4,#uu,#xx
+{
+display:none;
+/*background-color:#0F5;*/
+margin:0 auto;
+}
+
+#formIngresar,#zzz,#zzz2,#titulo2,#zzz3,#zzz4,#zzz5,#zzz6,#zzz7,#zzz8,#yy,#jj,#conProPer
+{display:none;
+
+	
+	}
+
+/*ESTILO BOTON FILE EN EL INGRESAR AVANCE DEL PROGRAMADOS*/
+
+.imjr {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #09F;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-family: verdana;
+    font-size: 12pt;
+    width: 120px;
+    min-height: 40px;
+}
+.imjr:hover {
+    background-color: #09F;
+    color: #fff;
+}
+.imjr .imagen {
+    margin: 0;
+    padding: 0;outline:0;
+/*    font-size: 10000px;*/
+    border: 10000px solid transparent;
+/*    opacity: 0;*/
+    filter: alpha(opacity=0);
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+    cursor: pointer;
+}
+/*fin file boton*/
